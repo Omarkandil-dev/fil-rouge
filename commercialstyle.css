@@ -1,0 +1,119 @@
+.tâches-tech{
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    gap : 30px;
+}
+.search{
+    width: 30%;
+    margin-left: 50px;
+}
+.bar-table{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px 10px 0px;
+
+}
+.react-datalist-input__textbox {
+    border: none;
+}
+.Table-tech{
+    background-color: white;
+    padding: 2rem 1rem 2rem 0rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.mb-3{
+    margin-top: 20px;
+}
+.vl {
+    border-left: 1px solid gray;
+    height: 7px;
+  }
+
+.tâches-statut{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius:10px;
+    font-weight: 500;
+    background-color: #ececee;
+}
+    
+.tâches-statut:hover{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius:10px;
+    font-weight: 500;
+    background-color: #ececee;
+}
+    
+
+.Filter{
+    background-color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.Filter h5 span{
+    margin-top: 100px;
+}
+.filter-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+}
+.filter-button button{
+    width: 100%;
+}
+.data-to-complete{
+    display: flex;
+}
+
+.info{
+    font-weight: 600;
+    font-style: normal;
+    width: 50%;
+    line-height: 10px;
+}
+.ul li{
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .tâches-tech{
+        display: grid;
+        grid-template-columns: auto; 
+    }
+  
+ 
+}
+@media only screen and (max-width: 800px) {
+    .mobileversion{
+        display: none;
+    }
+    .tâches-tech{
+        display: grid;
+        grid-template-columns: auto; 
+        
+    }
+    .bar-table {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px -8px 10px 0px;
+    }
+    .search{
+        width: 100%;
+        margin-left: 0;
+    }
+  
+}
